@@ -14,9 +14,9 @@
     opacity: 0.2;
   }
   html {
-    @apply bg-magnolia text-marine-blue text-base text-center;
+    @apply bg-sky-50 text-sky-700 text-base text-center;
   }
   a {
-    @apply transition-colors hover:text-marine-blue;
+    @apply transition-colors hover:text-sky-500;
   }
 }
