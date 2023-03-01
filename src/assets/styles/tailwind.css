@@ -3,15 +3,8 @@
 @tailwind utilities;
 
 @layer base {
-  .debug::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: limegreen;
-    opacity: 0.2;
+  .debug {
+    @apply outline-red-500 bg-[rgba(175,76,0,0.16)] outline-1 outline-dashed;
   }
   html {
     @apply bg-sky-50 text-sky-700 text-base text-center;
